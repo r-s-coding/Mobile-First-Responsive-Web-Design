@@ -16,19 +16,15 @@ body {
     background-color: #212121;
     opacity: 0.5;
     z-index: 0;
-
 }
 
-/* background image scaling */
 .medium {
     object-fit: cover;
     height: 1024px;
     width: 100%;
 }
 
-.large {
-    display: none;
-}
+.large {display: none}
 
 .logo {
     position: absolute;
@@ -160,10 +156,6 @@ body {
     height: 100%;
 }
 
-#article1-img {background-image: url("article1.png")}
-#article2-img {background-image: url("article2.png")}
-#article3-img {background-image: url("article3.png")}
-
 .article-info-box {
     position: absolute;
     top: 53.39%;
@@ -179,8 +171,6 @@ body {
     left: 32px;
     right: 32px;
     bottom: 32px;
-    width: 247px;
-    height: 200px;
 }
 
 .article-date {
@@ -213,7 +203,6 @@ body {
     margin-bottom: 30px;
 }
 
-/* Arrows are not the same in the design */
 .read-more-link {
     width: 96px;
     height: 18px;
@@ -240,9 +229,7 @@ body {
         line-height: calc(87px + 12 * ((100vw - 744px) / (1440 - 744)));
     }
 
-    .description {
-        width: 528px;
-    }
+    .description {width: 528px}
 
     .news-section {
         width: calc(600px + 696 * ((100vw - 744px) / (1440 - 744)));
@@ -274,7 +261,6 @@ body {
 
     .article-img {
         width: calc(187px + 232 * ((100vw - 744px) / (1440 - 744)));
-        overflow: hidden;
     }
 
     .article-img img {
